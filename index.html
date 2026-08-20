@@ -3,7 +3,7 @@
 <html class="dark" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Harikrishnan S | Cybersecurity Portfolio</title>
+<title>Harikrishnan S</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
@@ -288,11 +288,11 @@
 <!-- Navigation Links (Desktop) -->
 <div class="hidden md:flex items-center gap-8">
 <!-- Active Navigation -->
-<a class="text-primary font-bold border-b-2 border-primary pb-1 font-headline-sm text-headline-sm scale-95 transition-transform" href="#portfolio">Portfolio</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-headline-sm text-headline-sm scale-95 transition-transform" href="#projects">Projects</a>
 <!-- Inactive Navigation -->
-<a class="text-on-surface-variant hover:text-primary transition-colors duration-300 font-headline-sm text-headline-sm" href="#services">Services</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-300 font-headline-sm text-headline-sm" href="#experience">Experience</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-300 font-headline-sm text-headline-sm" href="#proof-of-work">Proof of Work</a>
 <a class="text-on-surface-variant hover:text-primary transition-colors duration-300 font-headline-sm text-headline-sm" href="#certifications">Certifications</a>
-<a class="text-on-surface-variant hover:text-primary transition-colors duration-300 font-headline-sm text-headline-sm" href="#contact">Contact</a>
 </div>
 <!-- Trailing Primary Action -->
 <div class="hidden md:block">
@@ -316,7 +316,7 @@
 <span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
 <span class="font-label-caps text-label-caps text-on-surface-variant">SYSTEM STATUS: SECURE</span>
 </div>
-<h1 class="font-display-lg text-display-lg text-primary mb-6">Offensive Security &amp; VAPT Specialist</h1>
+<h1 class="font-display-lg text-display-lg text-primary mb-6">Security Researcher</h1>
 <p class="font-body-lg text-body-lg text-on-surface mb-10 max-w-2xl">
                     Cybersecurity student with hands-on experience in vulnerability assessment, web application security, and XSS research. Core contributor to X5Sentry — an autonomous XSS hunter under Project Hellhound.
                 </p>
@@ -384,16 +384,15 @@
 </div>
 </section>
 <!-- Projects Section -->
-<section class="mb-24" id="portfolio">
+<section class="mb-24" id="projects">
 <h2 class="font-headline-md text-headline-md text-primary mb-12 flex items-center gap-3">
 <span class="material-symbols-outlined">folder_special</span>
-                Classified Operations
+                Projects
             </h2>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 <!-- Project 1 -->
-<div class="glass-base rounded-xl overflow-hidden group hover:glass-floating transition-all duration-300 flex flex-col border border-white/10 hover:border-white/30 cursor-pointer">
+<div class="glass-base rounded-xl overflow-hidden group hover:glass-floating transition-all duration-300 flex flex-col border border-white/10 hover:border-white/30 cursor-pointer md:col-span-2">
 <div class="h-48 relative overflow-hidden">
-<!-- Abstract Data Visualization Placeholder Image -->
 <div class="bg-cover bg-center w-full h-full opacity-40 grayscale group-hover:opacity-60 transition-opacity duration-500 group-hover:scale-105 transform" data-alt="A detailed, abstract digital representation of cloud security infrastructure." style="background-image: url('images/cloud-security.jpg')"></div>
 <div class="absolute inset-0 bg-gradient-to-t from-surface-variant/80 to-transparent"></div>
 <div class="absolute top-4 left-4 inline-flex items-center gap-1 px-2 py-1 rounded bg-black/50 backdrop-blur-sm border border-white/10">
@@ -404,38 +403,100 @@
 <div class="p-6 flex-grow flex flex-col">
 <h3 class="font-headline-sm text-headline-sm text-primary mb-2 hover-glitch">X5Sentry | Autonomous XSS Hunter</h3>
 <p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">
-                            Core contributor to an autonomous XSS detection tool under Project Hellhound. Developed detection logic with WAF fingerprinting and PlaywrightValidator for headless Chromium-based runtime validation, auto-capturing visual evidence.
+                            Core contributor to an autonomous XSS detection tool under Project Hellhound. Covers Reflected, Stored, DOM-based, Mutation (mXSS), Universal (uXSS), and Blind XSS. Developed detection logic with WAF fingerprinting via FilterAnalyzer, PlaywrightValidator for headless Chromium-based runtime validation with auto-captured visual evidence, and integrated the Hellhound Spider for SPA-aware crawling with deep JS extraction and automated parameter discovery.
                         </p>
 <div class="flex flex-wrap gap-2 mt-auto">
 <span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 font-label-caps text-label-caps text-primary">Python</span>
 <span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 font-label-caps text-label-caps text-primary">Playwright</span>
 <span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 font-label-caps text-label-caps text-primary">Web Security</span>
+<span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 font-label-caps text-label-caps text-primary">XSS Research</span>
 </div>
 </div>
 </div>
-<!-- Project 2 -->
-<div class="glass-base rounded-xl overflow-hidden group hover:glass-floating transition-all duration-300 flex flex-col border border-white/10 hover:border-white/30 cursor-pointer">
-<div class="h-48 relative overflow-hidden">
-<!-- Network Graph Image -->
-<div class="bg-cover bg-center w-full h-full opacity-40 grayscale group-hover:opacity-60 transition-opacity duration-500 group-hover:scale-105 transform" data-alt="A highly detailed 3D render of a glowing network security perimeter being actively defended." style="background-image: url('images/network-security.jpg')"></div>
-<div class="absolute inset-0 bg-gradient-to-t from-surface-variant/80 to-transparent"></div>
+</div>
+</section>
+<!-- Experience Section -->
+<section class="mb-24" id="experience">
+<h2 class="font-headline-md text-headline-md text-primary mb-12 flex items-center gap-3">
+<span class="material-symbols-outlined">work</span>
+                Experience
+            </h2>
+<div class="grid grid-cols-1 gap-8">
+<!-- Internship Card -->
+<div class="glass-base rounded-xl overflow-hidden group hover:glass-floating transition-all duration-300 flex flex-col md:flex-row border border-white/10 hover:border-white/30 cursor-pointer">
+<div class="md:w-1/3 h-48 md:h-auto relative overflow-hidden">
+<div class="bg-cover bg-center w-full h-full opacity-40 grayscale group-hover:opacity-60 transition-opacity duration-500 group-hover:scale-105 transform" style="background-image: url('images/network-security.jpg')"></div>
+<div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-surface-variant/80 to-transparent"></div>
 <div class="absolute top-4 left-4 inline-flex items-center gap-1 px-2 py-1 rounded bg-black/50 backdrop-blur-sm border border-white/10">
 <span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
-<span class="font-label-caps text-label-caps text-on-surface">COMPLETED</span>
+<span class="font-label-caps text-label-caps text-on-surface">DEC 2025 – FEB 2026</span>
 </div>
 </div>
 <div class="p-6 flex-grow flex flex-col">
+<div class="inline-flex items-center gap-2 mb-3">
+<span class="font-label-caps text-label-caps text-primary-container px-2 py-1 rounded bg-white/5 border border-white/10">INTERNSHIP</span>
+</div>
 <h3 class="font-headline-sm text-headline-sm text-primary mb-2 hover-glitch">CyArt | VAPT Intern</h3>
 <p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">
-                            Performed vulnerability assessment and penetration testing on web applications. Gained hands-on exposure to real-world offensive security workflows, tooling, and reporting practices across network and application layers.
+                            Performed vulnerability assessment and penetration testing on web applications following industry-standard methodologies. Identified, analyzed, and documented security vulnerabilities across network and application layers. Gained hands-on exposure to real-world offensive security workflows, tooling, and reporting practices.
                         </p>
 <div class="flex flex-wrap gap-2 mt-auto">
 <span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 font-label-caps text-label-caps text-primary">VAPT</span>
 <span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 font-label-caps text-label-caps text-primary">OWASP Top 10</span>
 <span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 font-label-caps text-label-caps text-primary">Red Teaming</span>
+<span class="px-3 py-1 rounded-full bg-white/5 border border-white/10 font-label-caps text-label-caps text-primary">Reporting</span>
 </div>
 </div>
 </div>
+</div>
+</section>
+<!-- Proof of Work Section -->
+<section class="mb-24" id="proof-of-work">
+<h2 class="font-headline-md text-headline-md text-primary mb-12 flex items-center gap-3">
+<span class="material-symbols-outlined">emoji_events</span>
+                Proof of Work
+            </h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+<!-- TryHackMe -->
+<a href="https://tryhackme.com" target="_blank" class="glass-base p-6 rounded-xl flex flex-col items-center gap-4 border border-white/10 hover:border-primary-container/50 hover:bg-surface-variant/80 transition-all cursor-pointer group">
+<div class="w-16 h-16 rounded-lg bg-surface-container-low border border-white/10 flex items-center justify-center group-hover:border-primary-container/40 transition-colors">
+<span class="material-symbols-outlined text-3xl text-primary" style="font-variation-settings: 'FILL' 1;">flag</span>
+</div>
+<div class="text-center">
+<h4 class="font-headline-sm text-headline-sm text-primary mb-1">TryHackMe</h4>
+<p class="font-label-caps text-label-caps text-on-surface-variant">CTF &amp; LABS</p>
+</div>
+</a>
+<!-- HackerOne -->
+<a href="https://hackerone.com" target="_blank" class="glass-base p-6 rounded-xl flex flex-col items-center gap-4 border border-white/10 hover:border-primary-container/50 hover:bg-surface-variant/80 transition-all cursor-pointer group">
+<div class="w-16 h-16 rounded-lg bg-surface-container-low border border-white/10 flex items-center justify-center group-hover:border-primary-container/40 transition-colors">
+<span class="material-symbols-outlined text-3xl text-primary-container" style="font-variation-settings: 'FILL' 1;">pest_control</span>
+</div>
+<div class="text-center">
+<h4 class="font-headline-sm text-headline-sm text-primary mb-1">HackerOne</h4>
+<p class="font-label-caps text-label-caps text-on-surface-variant">BUG BOUNTY</p>
+</div>
+</a>
+<!-- PortSwigger -->
+<a href="https://portswigger.net" target="_blank" class="glass-base p-6 rounded-xl flex flex-col items-center gap-4 border border-white/10 hover:border-primary-container/50 hover:bg-surface-variant/80 transition-all cursor-pointer group">
+<div class="w-16 h-16 rounded-lg bg-surface-container-low border border-white/10 flex items-center justify-center group-hover:border-primary-container/40 transition-colors">
+<span class="material-symbols-outlined text-3xl text-outline" style="font-variation-settings: 'FILL' 1;">science</span>
+</div>
+<div class="text-center">
+<h4 class="font-headline-sm text-headline-sm text-primary mb-1">PortSwigger</h4>
+<p class="font-label-caps text-label-caps text-on-surface-variant">WEB SECURITY ACADEMY</p>
+</div>
+</a>
+<!-- HackingHub -->
+<a href="https://hackinghub.io" target="_blank" class="glass-base p-6 rounded-xl flex flex-col items-center gap-4 border border-white/10 hover:border-primary-container/50 hover:bg-surface-variant/80 transition-all cursor-pointer group">
+<div class="w-16 h-16 rounded-lg bg-surface-container-low border border-white/10 flex items-center justify-center group-hover:border-primary-container/40 transition-colors">
+<span class="material-symbols-outlined text-3xl text-primary-container" style="font-variation-settings: 'FILL' 1;">hub</span>
+</div>
+<div class="text-center">
+<h4 class="font-headline-sm text-headline-sm text-primary mb-1">HackingHub</h4>
+<p class="font-label-caps text-label-caps text-on-surface-variant">HACKING LABS</p>
+</div>
+</a>
 </div>
 </section>
 <!-- Certifications Section -->
@@ -488,7 +549,7 @@
 <!-- Links -->
 <div class="flex items-center gap-6">
 <a class="text-on-surface-variant hover:text-primary transition-opacity hover:opacity-80" href="https://github.com/L33TxGH05T" target="_blank">GitHub</a>
-<a class="text-on-surface-variant hover:text-primary transition-opacity hover:opacity-80" href="https://www.linkedin.com/in/harikrish122005" target="_blank">LinkedIn</a>
+<a class="text-on-surface-variant hover:text-primary transition-opacity hover:opacity-80" href="https://www.linkedin.com/in/-sharikrishnan-/" target="_blank">LinkedIn</a>
 <a class="text-on-surface-variant hover:text-primary transition-opacity hover:opacity-80" href="mailto:harikrish122005@gmail.com">Contact</a>
 </div>
 </footer>
